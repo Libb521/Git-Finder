@@ -1,7 +1,7 @@
 <!-- <p>profile works!</p> -->
 <!-- Creating the nav bar at the top -->
 
-<nav class="navbar navbar-inverse navbar-fixed-top" style="height: 10%;">
+<!-- <nav class="navbar navbar-inverse navbar-fixed-top" style="height: 10%;">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" arial-expanded="false"
@@ -15,7 +15,7 @@
         <a style="list-style: none;" class="navbar-brand" href="#">
         </a> 
     </div>
-</nav>
+</nav> -->
 <!--Profile and location on the Panel-->
 <div *ngIf="profile">
     <div style="margin-top: 10%;" class="panel panel-default">
@@ -35,20 +35,21 @@
           </div>
           <div class="col-md-8">
             <div class="start">
-                <span class="label label-default">{{profile.public_repos}} Public Repos</span>
-                <span class="label label-primary">{{profile.public_gist}} Public Gist</span>
-                <span class="label label-success">{{profile.followers}} Followers</span>
-                <span class="label label-info">{{profile.following}} Following</span>
+                <span class="btn btn-danger" id="fol">{{profile.followers}} Followers</span>
+                <span class="btn btn-success" id="foll">{{profile.following}} Following</span>
+                <span class="btn btn-success" id="gis">{{profile.public_gists}} public</span>
+                <span class="btn btn-success" id="rep">{{profile.public_repos}} public repos</span>
+             </div>  
                 <br>
   
             <!-- Content With User-info -->
   
               <ul class="list-group">
-                  <li class="list-group-item"><strong>Username:</strong> {{profile.login}}</li>
-                  <li class="list-group-item"><strong>Location:</strong> {{profile.location}}</li>
-                  <li class="list-group-item"><strong>Email:</strong> {{profile.email}}</li>
-                  <li class="list-group-item"><strong>Bio:</strong> {{profile.bio}}</li>
-                  <li class="list-group-item"><strong>Member Since:</strong> {{profile.created_at}}</li>
+                  <li *ngIf="profile.login" class="list-group-item"><strong>Username:</strong> {{profile.login}}</li>
+                  <li *ngIf="profile.location" class="list-group-item"><strong>Location:</strong> {{profile.location}}</li>
+                  <li *ngIf="profile.email" class="list-group-item"><strong>Email:</strong> {{profile.email}}</li>
+                  <li *ngIf="profile.bio" class="list-group-item"><strong>Bio:</strong> {{profile.bio}}</li>
+                  <li *ngIf="profile.created_at" class="list-group-item"><strong>Member Since:</strong> {{profile.created_at}}</li>
               </ul>
   
             <!-- Collapse Content With User-info -->
