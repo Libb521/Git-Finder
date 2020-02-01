@@ -17,13 +17,31 @@
     </div>
 </nav> -->
 <!--Profile and location on the Panel-->
+<form>
+    <!-- <div id="navbar" class="collapse navbar-collapse">
+        <a style="list-style: none;" class="navbar-brand" href="#">
+          <li>
+            <img id="anim" src="assets/images/duck.gif" alt="github image" height="80" width="80" style=" margin-top: -20%;">
+          </li>
+        </a>
+
+        <ul class="navbar-nav">
+          
+            <li><form action=""><div class="form-group"><input type="text" style="margin-top: 7%;  width: 130%; height: 15%;background-color: rgb(70, 68, 68); border: none; color: ghostwhite;" class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus  " placeholder="search or jump to" [(ngModel)]="username" name="username"  (keyup.Enter)="findProfile()"></div></form></li>
+        </ul>
+    </div> -->
+    <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Search git users with username">
+    </div>
+
+</form>
 <div class="container">
 <div class="profile">
     <div style="margin-top: 10%;" class="panel panel-default">
 
         <div class="panel-heading">
             {{profile.name}}, <small>{{profile.login}}</small>,
-          <span *ngIf="profile.company">Works at {{profile.company}}</span>, {{profile.location}}
+            {{profile.location}}
         </div>
     </div>
 
@@ -78,7 +96,7 @@
                                     <p>{{repo.description}}</p>
                                     <!-- View on Github Button -->
 
-                                    <h4><a href="{{repo.html_url}}" target="_blank">View on github</a></h4>
+                                    <h4><a href="{{repo.html_url}}" target="_blank">Check on github</a></h4>
                                 </div>
                                 <div class="col-md-3">
                                     <span class="label label-default">{{repo.watchers}} Stars </span>
