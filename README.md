@@ -1,27 +1,54 @@
-# GitFinder
+# G-Finder
+#### 01/02/2020
+#### By **Elizabeth Ayiemba Otieno**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+## Description
+- 
+This project has been generated using Angular CLI. This web application that allows users to search a github username and the users repositories will be displayed alongside their profile details without any limitations.
 
-## Development server
+## Behaviour Driven Development(BDD)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+| Input                        | Ouput                                                                                            |
+|--------------------------    |----------------------------------------------------------------------------------------------    |
+| Clicks search user    | Users details will be displayed                  |
+| Clicks Search repos         | User Repositories are displayed             |
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Setup/Installation requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+- Clone  or download and unzip the repository from github, []().
+- If you have git Use this command `git clone *` to clone the project.
+- Run ng serve from your terminal
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Live Demo
+To view the page click on the link below
+* [](*)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Technologies Used
+- Angular CLI
+
+
+
+## Known Bugs
+- There are no known bugs currently. The page works as expected. But incase you encounter any, kindly contact me through my details provided on this page.
+
+## Support and Contact Details
+- For any comments,suggestions,feedback, collaborations or inquiries, kindly contact me through email: `eotieno39@yahoo.com`
+
+
+## License
+- This project is licensed under the MIT Open Source license Copyright (c) 2020. [Elizabeth Ayiemba Otieno]
+
+
+Copyright (c) 2020
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
