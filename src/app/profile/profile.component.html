@@ -57,3 +57,40 @@
             </div>
           </div>
   
+<!-- REPOSITORIES -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Repositories</h3>
+            </div>
+        <div class="panel-body">
+            <div class="row">
+                    <!-- Looop To Display Repos -->
+                    <div class="col-md-12">
+                        <div *ngFor="let repo of repos">
+                            <div class="row">
+                                
+                                <!-- Div To Display Repositories -->
+                                <div class="col-md-9">
+                                    <!-- Repo Name -->
+                                    <h3>{{repo.name}}</h3>
+                                    <!-- Repo Description -->
+                                    <p>{{repo.description}}</p>
+                                    <!-- View on Github Button -->
+
+                                    <h4><a href="{{repo.html_url}}" target="_blank">View on github</a></h4>
+                                </div>
+
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
