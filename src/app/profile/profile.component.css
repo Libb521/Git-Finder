@@ -1,17 +1,17 @@
-/* body{
+body{
     height: 50%;
-    background-image: url("src/assets/background-blur-clean-clear-531880.jpg");
+    background-image: url("src/assets/photo-of-water-drops-on-glass-3178798.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
 
 .search-form{
-    padding-top: 50px;
-   margin-right: 50px;
-   margin-left: 50px;
-    background-color: rgb(252, 165, 53);
-    color: white;
+    padding-top: 30px;
+   /* margin-right: 50px;
+   margin-left: 50px; */
+    background-color:  #d25d19;
+    color: black;
     text-align: center;
     border-radius: 15px;
 }
@@ -23,18 +23,14 @@
     border-radius: 50%;
     text-align: center;
   }
-
-.boxx {
-    padding-bottom: 350px;
-    
+#head{
+    text-align: center;
+    font-weight: bold;
+    color: #d25d19;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-.box {
-    float: left;
-    height: 100%;
-    padding: 20px;
-}
-.btn {
+/* .btn {
     padding: 5px;
     padding-right: 20px;
 }
@@ -85,7 +81,4 @@
     padding-top: 7px;
     padding-left: 35px;
     
-}
-.clearfix{
-    border-color: maroon;
 } */

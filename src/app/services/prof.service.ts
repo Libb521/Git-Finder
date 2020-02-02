@@ -22,5 +22,7 @@ export class ProfService {
    getProfileRepos(){
     return this.http.get("https://api.github.com/users/" + this.username + "/repos?access_tokens=85493ea390c295a8a5f18d4f337a163eabb0c17f")
    }
-
+   updateProfile(username:string){
+     this.username = username;
+   }
 }
