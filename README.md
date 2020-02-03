@@ -18,13 +18,13 @@ This project has been generated using Angular CLI. This web application that all
 ## Setup/Installation requirements
 
 
-- Clone  or download and unzip the repository from github, []().
+- Clone  or download and unzip the repository from github, [https://github.com/Libb521/Git-Finder]().
 - If you have git Use this command `git clone *` to clone the project.
 - Run ng serve from your terminal
 
 ## Live Demo
 To view the page click on the link below
-* [](*)
+* [https://libb521.github.io/Git-Finder/](*)
 
 
 
